@@ -42,7 +42,7 @@ void Camera::CameraManager::RenderAllCameras(RenderWindow& _window, const int _i
 	{
 		if (!SetRenderView(_pair.second, _window))
 		{
-			_pair.second->SetViewport(FloatRect(Vector2f(), Vector2f()));
+			_pair.second->SetViewport(FloatRect(Vector2f(3840, 2120), Vector2f(3840, 2120)));
 			continue;
 		}
 

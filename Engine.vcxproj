@@ -184,6 +184,7 @@ xcopy /y /d "..\..\SFML-3.0.0\bin\sfml-window-d-3.dll" "$(OutDir)"
     <ClCompile Include="Level.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MapGenerator.cpp" />
     <ClCompile Include="MeshActor.cpp" />
     <ClCompile Include="MeshComponent.cpp" />
     <ClCompile Include="MusicSample.cpp" />
@@ -194,6 +195,7 @@ xcopy /y /d "..\..\SFML-3.0.0\bin\sfml-window-d-3.dll" "$(OutDir)"
     <ClCompile Include="Particle.cpp" />
     <ClCompile Include="ProgressBarWidget.cpp" />
     <ClCompile Include="RectangleActor.cpp" />
+    <ClCompile Include="Rock.cpp" />
     <ClCompile Include="RootComponent.cpp" />
     <ClCompile Include="Sample.cpp" />
     <ClCompile Include="ShapeObject.cpp" />
@@ -207,6 +209,7 @@ xcopy /y /d "..\..\SFML-3.0.0\bin\sfml-window-d-3.dll" "$(OutDir)"
     <ClCompile Include="TextObject.cpp" />
     <ClCompile Include="TextureManager.cpp" />
     <ClCompile Include="TransformableObject.cpp" />
+    <ClCompile Include="Tree.cpp" />
     <ClCompile Include="TriangleActor.cpp" />
     <ClCompile Include="Utilities.cpp" />
     <ClCompile Include="VertexActor.cpp" />
@@ -261,6 +264,7 @@ xcopy /y /d "..\..\SFML-3.0.0\bin\sfml-window-d-3.dll" "$(OutDir)"
     <ClInclude Include="Layer.h" />
     <ClInclude Include="Level.h" />
     <ClInclude Include="LevelManager.h" />
+    <ClInclude Include="MapGenerator.h" />
     <ClInclude Include="MusicSample.h" />
     <ClInclude Include="PanelWidget.h" />
     <ClInclude Include="Pawn.h" />
@@ -268,6 +272,7 @@ xcopy /y /d "..\..\SFML-3.0.0\bin\sfml-window-d-3.dll" "$(OutDir)"
     <ClInclude Include="Particle.h" />
     <ClInclude Include="ProgressBarWidget.h" />
     <ClInclude Include="RenderType.h" />
+    <ClInclude Include="Rock.h" />
     <ClInclude Include="Sample.h" />
     <ClInclude Include="SliderWidget.h" />
     <ClInclude Include="Slot.h" />
@@ -293,6 +298,7 @@ xcopy /y /d "..\..\SFML-3.0.0\bin\sfml-window-d-3.dll" "$(OutDir)"
     <ClInclude Include="TextureManager.h" />
     <ClInclude Include="TimerManager.h" />
     <ClInclude Include="TransformData.h" />
+    <ClInclude Include="Tree.h" />
     <ClInclude Include="TriangleActor.h" />
     <ClInclude Include="Utilities.h" />
     <ClInclude Include="VertexActor.h" />

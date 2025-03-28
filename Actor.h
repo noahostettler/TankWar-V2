@@ -365,6 +365,7 @@ public:
 	#pragma endregion
 
 public:
+	Actor() = default;
 	Actor(Level* _level, const string& _name = "Actor", const TransformData& _transform = TransformData());
 	Actor(const Actor& _other);
 	virtual ~Actor();

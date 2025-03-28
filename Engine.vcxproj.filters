@@ -229,6 +229,12 @@
     <Filter Include="Tank War\Level">
       <UniqueIdentifier>{92c9c0f9-63ad-45d1-add3-6d93da490ba0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tank War\Map">
+      <UniqueIdentifier>{6054cace-78e1-499a-a16a-d3f56b997bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tank War\Map\MapElement">
+      <UniqueIdentifier>{482c58de-b5c1-45d4-a424-0af6e3333994}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TextObject.cpp">
@@ -448,6 +454,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TankMovement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator.cpp">
+      <Filter>Tank War\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Tank War\Map\MapElement</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -702,6 +717,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TankMovement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator.h">
+      <Filter>Tank War\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Tank War\Map\MapElement</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

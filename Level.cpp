@@ -16,7 +16,7 @@ Level::Level(const string& _name)
 	audioManager = AudioManager();
 	gameMode = nullptr;
 
-	window.create(VideoMode({ 1200, 600 }), _name);
+	window.create(VideoMode({ 1920, 1080 }), _name);
 	window.setVisible(false);
 
 	M_LEVEL.RegisterLevel(_name, this);
@@ -25,7 +25,7 @@ Level::Level(const string& _name)
 
 void Level::UpdateWindow()
 {
-	window.clear();
+	window.clear(Color(115, 133, 37));
 	cameraManager.Render(window, GetGameMode()->IsSplitScreen());
 	window.display();
 }
